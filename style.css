@@ -1,4 +1,5 @@
-		{ box-sizing: border-box; }
+		*{ box-sizing: border-box; }
+
 		body { margin: 0; padding: 60px 25px;
 		/* Outer background/frame */
 		background-color: #d8d1c7;
@@ -8,7 +9,8 @@
 		font-size: 18px;
 		line-height: 1.38;
 		}
-		/* The actual "letter" */ .letter { width: 100%; max-width: 900px; margin: 0 auto;
+		
+		.letter { width: 100%; max-width: 900px; margin: 0 auto;
 		padding: 55px 65px 65px;
 		
 		/* Warm paper color */
@@ -34,7 +36,7 @@
 		color: #262321;
 		}
 		p { margin-top: 0; margin-bottom: 1.35em; text-align: left; }
-		/* Smaller screens */ @media (max-width: 600px) { body { padding: 25px 12px; font-size: 17px; line-height: 1.4; }
+		/@media (max-width: 600px) { body { padding: 25px 12px; font-size: 17px; line-height: 1.4; }
 	.letter {
     padding: 35px 24px 40px;
 		}
