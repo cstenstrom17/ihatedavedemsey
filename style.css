@@ -1,29 +1,50 @@
-*{
-box-sizing: border-box; }
-body { margin: 0; padding: 50px 24px; background-color: #f7f4ef; color: #302d2a;
-font-family: "Lora", Georgia, serif;
-font-size: 18px;
-line-height: 1.38;
-}
-/* Keeps the entire letter centered on the page */ body > * { width: 100%; max-width: 850px; margin-left: auto; margin-right: auto; }
-h1 { margin-top: 10px; margin-bottom: 40px;
-font-family: "Caveat", cursive;
-font-size: 3.7rem;
-font-weight: 500;
-line-height: 1.05;
-
-text-align: center;
-color: #262321;
-}
-p { margin-top: 0; margin-bottom: 1.35em; text-align: left; }
-/* Slightly more breathing room on larger screens */ @media (min-width: 1000px) { body { padding-top: 65px; padding-bottom: 65px; } }
-/* Phone / small-screen adjustments */ @media (max-width: 600px) { body { padding: 30px 20px; font-size: 17px; line-height: 1.4; }
-h1 {
-    font-size: 2.8rem;
-    margin-bottom: 30px;
-}
-
-p {
-    margin-bottom: 1.25em;
-}
-}
+		{ box-sizing: border-box; }
+		body { margin: 0; padding: 60px 25px;
+		/* Outer background/frame */
+		background-color: #d8d1c7;
+		color: #302d2a;
+		
+		font-family: "Lora", Georgia, serif;
+		font-size: 18px;
+		line-height: 1.38;
+		}
+		/* The actual "letter" */ .letter { width: 100%; max-width: 900px; margin: 0 auto;
+		padding: 55px 65px 65px;
+		
+		/* Warm paper color */
+		background-color: #fffdf9;
+		
+		/* Very subtle edge around the paper */
+		border: 1px solid rgba(70, 60, 50, 0.12);
+		
+		/* Gives the page some depth */
+		box-shadow:
+		    0 2px 4px rgba(0, 0, 0, 0.08),
+		    0 12px 30px rgba(0, 0, 0, 0.14);
+		
+		border-radius: 3px;
+		}
+		h1 { margin-top: 5px; margin-bottom: 45px;
+		font-family: "Caveat", cursive;
+		font-size: 3.7rem;
+		font-weight: 500;
+		line-height: 1.05;
+		
+		text-align: center;
+		color: #262321;
+		}
+		p { margin-top: 0; margin-bottom: 1.35em; text-align: left; }
+		/* Smaller screens */ @media (max-width: 600px) { body { padding: 25px 12px; font-size: 17px; line-height: 1.4; }
+	.letter {
+    padding: 35px 24px 40px;
+		}
+		
+		h1 {
+		    font-size: 2.8rem;
+		    margin-bottom: 32px;
+		}
+		
+		p {
+		    margin-bottom: 1.25em;
+		}
+		}
