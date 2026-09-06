@@ -1,4 +1,6 @@
-		*{ box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
 		body {
     margin: 0;
@@ -29,7 +31,9 @@
 
     border-radius: 4px;
 }
-		h1 { margin-top: 5px; margin-bottom: 45px;
+h1 {
+        margin-top: 5px;
+        margin-bottom: 45px;
 		font-family: "Caveat", cursive;
 		font-size: 3.7rem;
 		font-weight: 500;
@@ -38,8 +42,18 @@
 		text-align: center;
 		color: #262321;
 		}
-		p { margin-top: 0; margin-bottom: 1.35em; text-align: left; }
-		/@media (max-width: 600px) { body { padding: 25px 12px; font-size: 17px; line-height: 1.4; }
+p {
+    margin-top: 0;
+    margin-bottom: 1.35em;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 25px 12px;
+        font-size: 17px;
+        line-height: 1.4;
+    }
 	.letter {
     padding: 35px 24px 40px;
 		}
